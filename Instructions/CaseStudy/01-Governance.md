@@ -32,3 +32,15 @@ Tailwind Traders is planning on making some significant changes to their governa
 
 How are you incorporating the Well Architected Framework pillars to produce a high quality, stable, and efficient cloud architecture?
 
+
+## My solutions
+
+1. **Cost and accounting**
+
+![Root](https://github.com/Teckinfor/AZ-305-MyExercicesSolutions/assets/35048771/d418e79a-3600-4918-806b-156e43fb01c4)
+
+2. **New development project**
+
+   * Creating a budget related to project's subscription
+  
+   * Creating custom policy to check that naming convention are respected and an other policy to ensure that only lower machines could be deployed
