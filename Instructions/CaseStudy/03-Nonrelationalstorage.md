@@ -27,16 +27,18 @@ Tailwind Traders wants to reduce storage costs by reducing duplicate content and
 
 1. Design a storage solution for Tailwind Traders. 
 
-      * What type of data is represented? 
+      * What type of data is represented? *Unstructured data*
 
-      * What factors will you consider in your design?
+      * What factors will you consider in your design? *The access type*
 
-      * Will you use blob access tiers?
+      * Will you use blob access tiers? *Corporate Documents can be managed with lifecycle policies*
+ 
+      * Will you use immutable storage? *For the Corporate Documents*
 
-      * Will you use immutable storage?
-
-      * How will the content be securely accessed?
+      * How will the content be securely accessed? *SAS for blobs and RBAC for azure files*
 
 2.  Your solution should consider the media, marketing literature, and corporate documents. Your recommendations may be different depending on the data. Be prepared to discuss your decisions. 
 
 How are you incorporating the Well Architected Framework pillars to produce a high quality, stable, and efficient cloud architecture?
+
+*Media files should be in a hot blob with SAS, Marketing Literature in Azure Files with an SMB, and Corporate document in other blob with lifecycle management policies and immutable*
